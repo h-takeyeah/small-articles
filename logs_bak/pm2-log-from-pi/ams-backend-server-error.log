@@ -1,0 +1,378 @@
+Error: Unknown column 'student_id' in 'where clause'
+    at PromiseConnection.query (/home/pi/ams-backend-nodejs/node_modules/mysql2/promise.js:92:22)
+    at /home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:73:51
+    at step (/home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:33:23)
+    at Object.next (/home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:14:53)
+    at /home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:4:12)
+    at Object.judgeActionAndSetRecord (/home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:67:73)
+    at /home/pi/ams-backend-nodejs/dist/app/controllers/accesslogController.js:93:55
+    at step (/home/pi/ams-backend-nodejs/dist/app/controllers/accesslogController.js:33:23) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'student_id' in 'where clause'"
+}
+Error: Unknown column 'student_id' in 'where clause'
+    at PromiseConnection.query (/home/pi/ams-backend-nodejs/node_modules/mysql2/promise.js:92:22)
+    at /home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:73:51
+    at step (/home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:33:23)
+    at Object.next (/home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:14:53)
+    at /home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:4:12)
+    at Object.judgeActionAndSetRecord (/home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:67:73)
+    at /home/pi/ams-backend-nodejs/dist/app/controllers/accesslogController.js:93:55
+    at step (/home/pi/ams-backend-nodejs/dist/app/controllers/accesslogController.js:33:23) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'student_id' in 'where clause'"
+}
+Error: Unknown column 'student_id' in 'where clause'
+    at PromiseConnection.query (/home/pi/ams-backend-nodejs/node_modules/mysql2/promise.js:92:22)
+    at /home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:73:51
+    at step (/home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:33:23)
+    at Object.next (/home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:14:53)
+    at /home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:4:12)
+    at Object.judgeActionAndSetRecord (/home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:67:73)
+    at /home/pi/ams-backend-nodejs/dist/app/controllers/accesslogController.js:93:55
+    at step (/home/pi/ams-backend-nodejs/dist/app/controllers/accesslogController.js:33:23) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'student_id' in 'where clause'"
+}
+Error: Unknown column 'student_id' in 'where clause'
+    at PromiseConnection.query (/home/pi/ams-backend-nodejs/node_modules/mysql2/promise.js:92:22)
+    at /home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:73:51
+    at step (/home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:33:23)
+    at Object.next (/home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:14:53)
+    at /home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:4:12)
+    at Object.judgeActionAndSetRecord (/home/pi/ams-backend-nodejs/dist/app/models/accesslogModel.js:67:73)
+    at /home/pi/ams-backend-nodejs/dist/app/controllers/accesslogController.js:93:55
+    at step (/home/pi/ams-backend-nodejs/dist/app/controllers/accesslogController.js:33:23) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'student_id' in 'where clause'"
+}
+Warning: got packets out of order. Expected 2 but received 0
+Error: Unexpected packet while no commands in the queue
+    at Connection.protocolError (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:371:17)
+    at Connection.handlePacket (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:418:12)
+    at PacketParser.onPacket (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:284:9)
+    at Socket.Readable.push (_stream_readable.js:223:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  fatal: true,
+  code: 'PROTOCOL_UNEXPECTED_PACKET'
+}
+Warning: got packets out of order. Expected 3 but received 0
+Error: Unexpected packet while no commands in the queue
+    at Connection.protocolError (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:371:17)
+    at Connection.handlePacket (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:418:12)
+    at PacketParser.onPacket (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:284:9)
+    at Socket.Readable.push (_stream_readable.js:223:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  fatal: true,
+  code: 'PROTOCOL_UNEXPECTED_PACKET'
+}
+TypeError: Cannot read property 'topic' of undefined
+    at /home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:86:32
+    at MqttClient.subscribe (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:671:5)
+    at MqttClient.<anonymous> (/home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:85:24)
+    at MqttClient.emit (events.js:327:22)
+    at Readable.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:1570:14)
+    at Readable.emit (events.js:315:20)
+    at endReadableNT (/home/pi/ams-backend-nodejs/node_modules/readable-stream/lib/_stream_readable.js:1094:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+Warning: got packets out of order. Expected 3 but received 0
+Error: Unexpected packet while no commands in the queue
+    at Connection.protocolError (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:371:17)
+    at Connection.handlePacket (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:418:12)
+    at PacketParser.onPacket (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:284:9)
+    at Socket.Readable.push (_stream_readable.js:223:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  fatal: true,
+  code: 'PROTOCOL_UNEXPECTED_PACKET'
+}
+Error: Connection lost: The server closed the connection.
+    at Socket.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:91:31)
+    at Socket.emit (events.js:315:20)
+    at TCP.<anonymous> (net.js:673:12) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+Error: Connection lost: The server closed the connection.
+    at Socket.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:91:31)
+    at Socket.emit (events.js:315:20)
+    at TCP.<anonymous> (net.js:673:12) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+error:  Error: Table 'accessdb.member_list' doesn't exist
+    at PromiseConnection.query (/home/pi/ams-backend-nodejs/node_modules/mysql2/promise.js:92:22)
+    at /home/pi/ams-backend-nodejs/dist/app/controllers/membersController.js:96:55
+    at step (/home/pi/ams-backend-nodejs/dist/app/controllers/membersController.js:33:23)
+    at Object.next (/home/pi/ams-backend-nodejs/dist/app/controllers/membersController.js:14:53)
+    at /home/pi/ams-backend-nodejs/dist/app/controllers/membersController.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/pi/ams-backend-nodejs/dist/app/controllers/membersController.js:4:12)
+    at getAllMembers (/home/pi/ams-backend-nodejs/dist/app/controllers/membersController.js:90:12)
+    at Layer.handle [as handle_request] (/home/pi/ams-backend-nodejs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/pi/ams-backend-nodejs/node_modules/express/lib/router/route.js:137:13) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'accessdb.member_list' doesn't exist"
+}
+TypeError: Cannot read property 'topic' of undefined
+    at /home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:86:32
+    at MqttClient.subscribe (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:671:5)
+    at MqttClient.<anonymous> (/home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:85:24)
+    at MqttClient.emit (events.js:327:22)
+    at Readable.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:1570:14)
+    at Readable.emit (events.js:315:20)
+    at endReadableNT (/home/pi/ams-backend-nodejs/node_modules/readable-stream/lib/_stream_readable.js:1094:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+TypeError: Cannot read property 'topic' of undefined
+    at /home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:86:32
+    at MqttClient.subscribe (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:671:5)
+    at MqttClient.<anonymous> (/home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:85:24)
+    at MqttClient.emit (events.js:327:22)
+    at Readable.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:1570:14)
+    at Readable.emit (events.js:315:20)
+    at endReadableNT (/home/pi/ams-backend-nodejs/node_modules/readable-stream/lib/_stream_readable.js:1094:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+TypeError: Cannot read property 'topic' of undefined
+    at /home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:86:32
+    at MqttClient.subscribe (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:671:5)
+    at MqttClient.<anonymous> (/home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:85:24)
+    at MqttClient.emit (events.js:327:22)
+    at Readable.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:1570:14)
+    at Readable.emit (events.js:315:20)
+    at endReadableNT (/home/pi/ams-backend-nodejs/node_modules/readable-stream/lib/_stream_readable.js:1094:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+TypeError: Cannot read property 'topic' of undefined
+    at /home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:86:32
+    at MqttClient.subscribe (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:671:5)
+    at MqttClient.<anonymous> (/home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:85:24)
+    at MqttClient.emit (events.js:327:22)
+    at Readable.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:1570:14)
+    at Readable.emit (events.js:315:20)
+    at endReadableNT (/home/pi/ams-backend-nodejs/node_modules/readable-stream/lib/_stream_readable.js:1094:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+Error: Connection lost: The server closed the connection.
+    at Socket.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:91:31)
+    at Socket.emit (events.js:315:20)
+    at TCP.<anonymous> (net.js:673:12) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+TypeError: Cannot read property 'topic' of undefined
+    at /home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:86:32
+    at MqttClient.subscribe (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:671:5)
+    at MqttClient.<anonymous> (/home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:85:24)
+    at MqttClient.emit (events.js:327:22)
+    at Readable.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:1570:14)
+    at Readable.emit (events.js:315:20)
+    at endReadableNT (/home/pi/ams-backend-nodejs/node_modules/readable-stream/lib/_stream_readable.js:1094:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+Warning: got packets out of order. Expected 3 but received 0
+Error: Unexpected packet while no commands in the queue
+    at Connection.protocolError (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:371:17)
+    at Connection.handlePacket (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:418:12)
+    at PacketParser.onPacket (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:284:9)
+    at Socket.Readable.push (_stream_readable.js:223:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  fatal: true,
+  code: 'PROTOCOL_UNEXPECTED_PACKET'
+}
+TypeError: Cannot read property 'topic' of undefined
+    at /home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:86:32
+    at MqttClient.subscribe (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:671:5)
+    at MqttClient.<anonymous> (/home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:85:24)
+    at MqttClient.emit (events.js:327:22)
+    at Readable.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:1570:14)
+    at Readable.emit (events.js:315:20)
+    at endReadableNT (/home/pi/ams-backend-nodejs/node_modules/readable-stream/lib/_stream_readable.js:1094:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+TypeError: Cannot read property 'topic' of undefined
+    at /home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:86:32
+    at MqttClient.subscribe (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:671:5)
+    at MqttClient.<anonymous> (/home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:85:24)
+    at MqttClient.emit (events.js:327:22)
+    at Readable.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:1570:14)
+    at Readable.emit (events.js:315:20)
+    at endReadableNT (/home/pi/ams-backend-nodejs/node_modules/readable-stream/lib/_stream_readable.js:1094:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+Error: Connection lost: The server closed the connection.
+    at Socket.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:91:31)
+    at Socket.emit (events.js:315:20)
+    at TCP.<anonymous> (net.js:673:12) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+Error: Connection lost: The server closed the connection.
+    at Socket.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:91:31)
+    at Socket.emit (events.js:315:20)
+    at TCP.<anonymous> (net.js:673:12) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+Warning: got packets out of order. Expected 3 but received 0
+Error: Unexpected packet while no commands in the queue
+    at Connection.protocolError (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:371:17)
+    at Connection.handlePacket (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:418:12)
+    at PacketParser.onPacket (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:75:12)
+    at PacketParser.executeStart (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:82:25)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:284:9)
+    at Socket.Readable.push (_stream_readable.js:223:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  fatal: true,
+  code: 'PROTOCOL_UNEXPECTED_PACKET'
+}
+Error: Connection lost: The server closed the connection.
+    at Socket.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:91:31)
+    at Socket.emit (events.js:315:20)
+    at TCP.<anonymous> (net.js:673:12) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+Error: Connection lost: The server closed the connection.
+    at Socket.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:91:31)
+    at Socket.emit (events.js:315:20)
+    at TCP.<anonymous> (net.js:673:12) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+TypeError: Cannot read property 'topic' of undefined
+    at /home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:86:32
+    at MqttClient.subscribe (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:671:5)
+    at MqttClient.<anonymous> (/home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:85:24)
+    at MqttClient.emit (events.js:327:22)
+    at Readable.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:1570:14)
+    at Readable.emit (events.js:315:20)
+    at endReadableNT (/home/pi/ams-backend-nodejs/node_modules/readable-stream/lib/_stream_readable.js:1094:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+TypeError: Cannot read property 'topic' of undefined
+    at /home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:86:32
+    at MqttClient.subscribe (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:671:5)
+    at MqttClient.<anonymous> (/home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:85:24)
+    at MqttClient.emit (events.js:327:22)
+    at Readable.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:1570:14)
+    at Readable.emit (events.js:315:20)
+    at endReadableNT (/home/pi/ams-backend-nodejs/node_modules/readable-stream/lib/_stream_readable.js:1094:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+TypeError: Cannot read property 'topic' of undefined
+    at /home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:86:32
+    at MqttClient.subscribe (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:671:5)
+    at MqttClient.<anonymous> (/home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:85:24)
+    at MqttClient.emit (events.js:327:22)
+    at Readable.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:1570:14)
+    at Readable.emit (events.js:315:20)
+    at endReadableNT (/home/pi/ams-backend-nodejs/node_modules/readable-stream/lib/_stream_readable.js:1094:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+TypeError: Cannot read property 'topic' of undefined
+    at /home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:86:32
+    at MqttClient.subscribe (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:671:5)
+    at MqttClient.<anonymous> (/home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:85:24)
+    at MqttClient.emit (events.js:327:22)
+    at Readable.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:1570:14)
+    at Readable.emit (events.js:315:20)
+    at endReadableNT (/home/pi/ams-backend-nodejs/node_modules/readable-stream/lib/_stream_readable.js:1094:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+TypeError: Cannot read property 'topic' of undefined
+    at /home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:86:32
+    at MqttClient.subscribe (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:671:5)
+    at MqttClient.<anonymous> (/home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:85:24)
+    at MqttClient.emit (events.js:327:22)
+    at Readable.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:1570:14)
+    at Readable.emit (events.js:315:20)
+    at endReadableNT (/home/pi/ams-backend-nodejs/node_modules/readable-stream/lib/_stream_readable.js:1094:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+TypeError: Cannot read property 'topic' of undefined
+    at /home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:86:32
+    at MqttClient.subscribe (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:671:5)
+    at MqttClient.<anonymous> (/home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:85:24)
+    at MqttClient.emit (events.js:327:22)
+    at Readable.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:1570:14)
+    at Readable.emit (events.js:315:20)
+    at endReadableNT (/home/pi/ams-backend-nodejs/node_modules/readable-stream/lib/_stream_readable.js:1094:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+Error: Connection lost: The server closed the connection.
+    at Socket.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:91:31)
+    at Socket.emit (events.js:315:20)
+    at TCP.<anonymous> (net.js:673:12) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+TypeError: Cannot read property 'topic' of undefined
+    at /home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:86:32
+    at MqttClient.subscribe (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:671:5)
+    at MqttClient.<anonymous> (/home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:85:24)
+    at MqttClient.emit (events.js:327:22)
+    at Readable.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:1570:14)
+    at Readable.emit (events.js:315:20)
+    at endReadableNT (/home/pi/ams-backend-nodejs/node_modules/readable-stream/lib/_stream_readable.js:1094:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+TypeError: Cannot read property 'topic' of undefined
+    at /home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:86:32
+    at MqttClient.subscribe (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:671:5)
+    at MqttClient.<anonymous> (/home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:85:24)
+    at MqttClient.emit (events.js:327:22)
+    at Readable.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:1570:14)
+    at Readable.emit (events.js:315:20)
+    at endReadableNT (/home/pi/ams-backend-nodejs/node_modules/readable-stream/lib/_stream_readable.js:1094:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+TypeError: Cannot read property 'topic' of undefined
+    at /home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:86:32
+    at MqttClient.subscribe (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:671:5)
+    at MqttClient.<anonymous> (/home/pi/ams-backend-nodejs/dist/app/slack/in-beebotte.js:85:24)
+    at MqttClient.emit (events.js:327:22)
+    at Readable.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mqtt/lib/client.js:1570:14)
+    at Readable.emit (events.js:315:20)
+    at endReadableNT (/home/pi/ams-backend-nodejs/node_modules/readable-stream/lib/_stream_readable.js:1094:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+Error: Connection lost: The server closed the connection.
+    at Socket.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:91:31)
+    at Socket.emit (events.js:315:20)
+    at TCP.<anonymous> (net.js:673:12) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+Error: Connection lost: The server closed the connection.
+    at Socket.<anonymous> (/home/pi/ams-backend-nodejs/node_modules/mysql2/lib/connection.js:91:31)
+    at Socket.emit (events.js:315:20)
+    at TCP.<anonymous> (net.js:673:12) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}

@@ -1,0 +1,12 @@
+2021-01-25 15:08 +09:00: 
+2021-01-25 15:08 +09:00: > ams-backend-nodejs@1.1.0 start /home/pi/ams-backend-nodejs
+2021-01-25 15:08 +09:00: > npm run build && node dist/ams-backend-server.js
+2021-01-25 15:08 +09:00: 
+2021-01-25 15:08 +09:00: 
+2021-01-25 15:08 +09:00: > ams-backend-nodejs@1.1.0 build /home/pi/ams-backend-nodejs
+2021-01-25 15:08 +09:00: > tsc -p .
+2021-01-25 15:08 +09:00: 
+2021-01-25 15:09 +09:00: [*] Server is running on port 3000.
+2021-01-25 15:09 +09:00: Subscribed to
+2021-01-25 15:09 +09:00: - channel: boushitsu_slackbot
+2021-01-25 15:09 +09:00: - resource: res
