@@ -1,0 +1,22 @@
+set number
+set smartindent
+set expandtab
+set shiftwidth=0
+set tabstop=2
+syntax enable
+" 対応する括弧をハイライト
+set showmatch
+set matchtime=1
+colorscheme iceberg
+" カーソル行をハイライト
+set cursorline
+" 折り返さない
+set nowrap
+" 括弧などの補完
+"inoremap {<Enter> {}<LEFT><CR><ESC><S-o>
+"inoremap [<Enter> []<LEFT><CR><ESC><S-o>
+"inoremap (<Enter> ()<LEFT><CR><ESC><S-o>
+"inoremap " ""<LEFT>
+"inoremap ' ''<LEFT>
+
+let g:rainbow_active=1
