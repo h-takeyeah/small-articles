@@ -1,13 +1,12 @@
 # ============
 # youtaku .zshrc
-# Last update | 2021/08/26
 #
 # - Zinit
 #   https://github.com/zdharma/zinit/blob/9ea1c9bcb7a5ffc893eb09f1ee355e5cee8d1e6d/README.md#quick-start
 #   - Powerlevel10k (Make sure Meslo Nerd Font is installed as system font!)
 #     https://github.com/romkatv/powerlevel10k/blob/e362b697355c99d164217c62b051a441b9bcd8f2/README.md
-# - Settings from .bashrc
-# - Settings from (bare) .zsrc
+# - Settings from ~/.bashrc
+# - Settings from (bare) ~/.zshrc
 # ============
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
