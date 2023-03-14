@@ -40,6 +40,7 @@ class GetHandler(BaseHTTPRequestHandler):
 
     def do_POST(self):
 
+        print('content-type:{0}'.format(self.headers.get_content_type()))
         length = self.headers.get('content-length')
         nbytes = int(length)
         # print(self.rfile)
